@@ -43,3 +43,13 @@ pip install textual[dev]
 ```shell
 poetry add --group dev textual[dev]
 ```
+
+Apos a instalaçao, execute o seguinte comando para verificar que a instalaçao ocorreu como o esperado:
+
+```shell
+python -m textual 
+```
+Este comando inicia um breve tutorial sobre a biblioteca:
+
+![textualinit](tui/img/textualinit.png)
+
