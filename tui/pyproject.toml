@@ -12,6 +12,7 @@ python = "3.10.*"
 [tool.poetry.group.dev.dependencies]
 ruff = "^0.6.8"
 taskipy = "^1.13.0"
+textual = "^0.81.0"
 
 [build-system]
 requires = ["poetry-core"]
@@ -28,5 +29,5 @@ select = ['I', 'F', 'E', 'W', 'PL', 'PT']
 [tool.taskipy.tasks]
 lint = 'ruff check . ; ruff check . --diff'
 format = 'ruff check . --fix; ruff format .'
-run = 'python3 main.py'
+run = 'python3 stopwatch.py'
 
